@@ -29,7 +29,7 @@ public class ExitUI extends JFrame implements IExitUI {
 	
 	
 	/**
-	 * Launch the application.
+	 *To Launch the application.
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
