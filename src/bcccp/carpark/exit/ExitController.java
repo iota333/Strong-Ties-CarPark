@@ -111,6 +111,11 @@ public class ExitController
 		}
 	}
 
+				   
+      /* This method used to set the status of the car park
+	 when car event is detected according to the detectedId, detected or not,
+	 inside or outside sensor Id */
+	 
 
 
 	@Override
@@ -128,7 +133,6 @@ public class ExitController
 			} else if (detectorId.equals(outsideSensor.getId()) && detected) {
 				setState(STATE.BLOCKED);
 			}
-			// In-progress to do the further development
 		default:
 			break;
 		}		
