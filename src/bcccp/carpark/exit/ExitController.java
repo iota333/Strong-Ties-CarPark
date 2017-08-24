@@ -44,6 +44,7 @@ public class ExitController
 
 	/**
 	 * This method used to set the state
+	  
 	 */
 	private void setState(STATE newState) {
 		switch (newState) {
@@ -128,7 +129,7 @@ public class ExitController
 			} else if (detectorId.equals(outsideSensor.getId()) && detected) {
 				setState(STATE.BLOCKED);
 			}
-			// In-progress to do the further development
+		
 		default:
 			break;
 		}		
